@@ -47,7 +47,7 @@ const DashBoard = () => (
             </a>
           </li>
           <li>
-            <a href="/DashBoard" className="flex items-center text-gray-300 hover:text-blue-400">
+            <a href="/AdminController" className="flex items-center text-gray-300 hover:text-blue-400">
               <span className="material-icons mr-3"></span>
               Admin Controller
             </a>

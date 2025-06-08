@@ -16,6 +16,7 @@ import MedicalCertRequest from "../pages/MedicalCertRequest";
 import LabRequest from "../pages/LabRequest";
 import CompleteMedicalCert from "../pages/CompleteMedicalCert";
 import CompleteLabResult from "../pages/CompleteLabResult";
+import AdminController from "../pages/AdminController";
 
 
 const AppRoutes = () => {
@@ -36,6 +37,7 @@ const AppRoutes = () => {
         <Route path="/LabRequest" element={<LabRequest />} />
         <Route path="/CompleteMedicalCert" element={<CompleteMedicalCert />} />
         <Route path="/CompleteLabResult" element={<CompleteLabResult />} />
+        <Route path="/AdminController" element={<AdminController />} />
       </Route>
     </Routes>
   );
